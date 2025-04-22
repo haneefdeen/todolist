@@ -8,9 +8,7 @@ A simple and responsive todo list app built using React. Easily add, delete, and
 
 - Add new tasks  
 - Delete tasks  
-- Mark tasks as completed  
-- Reorder or prioritize tasks  
-- Data persists using browser storage (localStorage)  
+- Reorder or prioritize tasks   
 - Clean and minimal UI  
 - Responsive design – works on desktop and mobile  
 - Fast and lightweight performance  
