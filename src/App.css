@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2b5876); 
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-container {
+  width: 480px;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: #1e1e2f;
+}
+
+.input-container {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  background: #f1f1f1;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 14px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+  background: #ffffff;
+  color: #2c3e50;
+}
+
+button {
+  background: #4ca1af;
   color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background: #2c3e50;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.edit {
+  background-color: #f39c12;
+}
+
+button.delete {
+  background-color: #e74c3c;
+}
+
+button.edit:hover {
+  background-color: #d68910;
+}
+
+button.delete:hover {
+  background-color: #c0392b;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 700;
+  color: #2c3e50;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.task-item:hover {
+  transform: scale(1.03);
+  background: #f0f0f0;
+}
+
+.task-item div {
+  display: flex;
+  gap: 10px;
 }
