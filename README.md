@@ -1,43 +1,36 @@
-# To-Do List
+# 📝 Todo List App
 
-This is a simple To-Do List app built using React.  
-It helps users manage their daily tasks with ease.
+A simple and responsive todo list app built using React. Easily add, delete, and mark tasks as complete – stay organized with a clean user interface.
 
 ---
 
-## Getting Started with Create React App
+## Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Add new tasks  
+- Delete tasks  
+- Mark tasks as completed  
+- Reorder or prioritize tasks  
+- Data persists using browser storage (localStorage)  
+- Clean and minimal UI  
+- Responsive design – works on desktop and mobile  
+- Fast and lightweight performance  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠Tech Stack
 
-### `npm start`
+- React.js  
+- HTML  
+- CSS  
+- JavaScript  
 
-Runs the app in the development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.  
-You may also see any lint errors in the console.
+## 🧑‍💻 Getting Started
 
-### `npm test`
+Follow these steps to run the project locally:
 
-Launches the test runner in the interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.  
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build
+   ```bash
+   git clone https://github.com/haneefdeen/todolist.git
