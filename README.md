@@ -15,7 +15,7 @@ A simple and responsive todo list app built using React. Easily add, delete, and
 
 ---
 
-## 🛠Tech Stack
+## Tech Stack
 
 - React.js  
 - HTML  
